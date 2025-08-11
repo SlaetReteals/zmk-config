@@ -3,8 +3,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: jordanniphan
-      url-base: https://github.com/JordanNiphan
+    - name: slaetreteals
+      url-base: https://github.com/SlaetReteals
 
   projects:
     - name: zmk
@@ -13,7 +13,7 @@ manifest:
       import: app/west.yml
       
     - name: zmk-keyboards
-      remote: jordanniphan
+      remote: slaetreteals
       revision: main
 
   self:
