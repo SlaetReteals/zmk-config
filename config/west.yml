@@ -1,20 +1,26 @@
 manifest:
-
+  self:
+    path: config
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: slaetreteals
       url-base: https://github.com/SlaetReteals
+    - name: urob
+      url-base: https://github.com/urob
 
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
+      revision: v0.3
       import: app/west.yml
       
     - name: zmk-keyboards
       remote: slaetreteals
       revision: main
-
+      
+    - name: zmk-leader-key
+      remote: urob
+      revision: v0.3 # set to same as ZMK version above
   self:
     path: config
