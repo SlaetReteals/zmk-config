@@ -5,5 +5,5 @@ include:
   - board: nice_nano_v2
     shield: slaetblue_right
     
-  - board: nice_nano_Sv2
+  - board: nice_nano_v2
     shield: settings_reset
