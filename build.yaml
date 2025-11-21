@@ -1,9 +1,9 @@
 include:
   - board: nice_nano_v2
-    shield: slaetblue_left
+    shield: slaetbigsplit_left
     
   - board: nice_nano_v2
-    shield: slaetblue_right
+    shield: slaetbigsplit_right
     
   - board: nice_nano_v2
     shield: settings_reset
