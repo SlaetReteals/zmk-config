@@ -1,3 +1,3 @@
 include:
   - board: [waveshare_rp2040_zero]
-    shield: slaetiny_left
+    shield: slaetrp2040
