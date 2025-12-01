@@ -5,7 +5,7 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
     - name: slaetreteals
-      url-base: https://github.com/SlaetReteals
+      url-base: https://github.com/SlaetZMK
     - name: urob
       url-base: https://github.com/urob
 
@@ -16,7 +16,7 @@ manifest:
       import: app/west.yml
       
     - name: zmk-keyboards
-      remote: slaetreteals
+      remote: slaetzmk
       revision: main
       
     - name: zmk-leader-key
