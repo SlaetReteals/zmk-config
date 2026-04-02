@@ -16,7 +16,7 @@ manifest:
       import: app/west.yml
       
     - name: zmk-keyboards
-      remote: slaetzmk
+      remote: slaetreteals
       revision: main
       
     - name: zmk-leader-key
