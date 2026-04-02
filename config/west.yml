@@ -4,8 +4,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: slaetzmk
-      url-base: https://github.com/SlaetZMK
+    - name: slaetreteals
+      url-base: https://github.com/SlaetReteals
     - name: urob
       url-base: https://github.com/urob
 
