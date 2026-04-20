@@ -3,5 +3,7 @@ include:
     shield: settings_reset
   - board: nice_nano//zmk
     shield: slaetbigsplit_left
+    snippet: zmk-usb-logging
   - board: nice_nano//zmk
     shield: slaetbigsplit_right
+    snippet: zmk-usb-logging
