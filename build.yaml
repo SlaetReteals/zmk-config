@@ -2,6 +2,6 @@ include:
   - board: nice_nano//zmk
     shield: settings_reset
   - board: nice_nano//zmk
-    shield: slaetiny_left
+    shield: slaetbigsplit_left
   - board: nice_nano//zmk
-    shield: slaetiny_right
+    shield: slaetbigsplit_right
