@@ -6,8 +6,9 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: slaetreteals
       url-base: https://github.com/SlaetReteals
-    - name: urob
-      url-base: https://github.com/urob
+
+    - name: badjeff
+      url-base: https://github.com/badjeff
 
   projects:
     - name: zmk
@@ -16,11 +17,13 @@ manifest:
       import: app/west.yml
       
     - name: zmk-keyboards
-      remote: slaetreteals
+      remote: slaetjoystick
       revision: main
       
-    - name: zmk-leader-key
-      remote: urob
+    - name: zmk-analog-input-driver
+      remote: badjeff
       revision: main
-  self:
-    path: config
+
+    - name: zmk-hid-io
+      remote: badjeff
+      revision: main
